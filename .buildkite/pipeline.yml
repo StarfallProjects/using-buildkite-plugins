@@ -3,4 +3,4 @@ steps:
     command: "script.bat"
   - label: "Hello world from a plugin"
     plugins:
-      - StarfallProjects/wibble#v0.0.1: ~
+      - StarfallProjects/fwibble: ~
