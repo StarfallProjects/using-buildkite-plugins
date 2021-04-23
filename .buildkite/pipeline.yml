@@ -1,3 +1,6 @@
 steps:
-  - label: "example"
+  - label: "Hello world from a simple script"
     command: "script.bat"
+  - label: "Hello world from a plugin"
+    plugins:
+      - StarfallProjects/basic-buildkite-plugin: ~
