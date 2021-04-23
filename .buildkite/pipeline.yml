@@ -1,5 +1,6 @@
 steps:
   - label: "Hello world from a simple script"
     command: "script.bat"
-  - plugins:
+  - label: "Hello world from a plugin"
+    plugins:
       - StarfallProjects/fwibble: ~
