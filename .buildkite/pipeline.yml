@@ -1,4 +1,6 @@
 steps:
+  - label: ":pipeline: Pipeline upload"
+    command: buildkite-agent pipeline upload
   - label: "Hello world from a simple script"
     command: "script.bat"
   - label: "Hello world from a plugin"
